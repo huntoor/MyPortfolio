@@ -8,6 +8,7 @@
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
 }
+
 .fs-7 {
     font-size: 1.1rem !important;
 }
@@ -19,6 +20,7 @@ body {
 .head-text h1 {
     color: var(--main-color);
 }
+
 .head-text hr {
     border-top: 3px solid;
     color: var(--main-color);
@@ -35,6 +37,7 @@ span {
 header nav {
     background-color: var(--main-color) !important;
 }
+
 header nav button {
     background-color: var(--main-color-alt) !important;
 }
@@ -50,16 +53,17 @@ header nav a.nav-link:hover {
 
 /* Landing */
 section#landing {
-    background-color: var(--main-color) !important;    
+    background-color: var(--main-color) !important;
     color: var(--main-color-alt) !important;
 }
+
 section#landing span {
     color: var(--secondary-color);
 }
 
 /* About */
 section#about {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,6 +78,7 @@ section#about h1 {
 section#about hr {
     color: var(--main-color-alt);
 }
+
 section#about ul.skill-list {
     /* display: grid;
     grid-template-columns: repeat(2, minmax(300px, 500px));
@@ -81,7 +86,7 @@ section#about ul.skill-list {
     padding: 0px;
     margin: 20px 0px 0px;
     overflow: hidden; */
-    list-style: none; 
+    list-style: none;
 }
 
 section#about ul.skill-list li {
@@ -89,6 +94,7 @@ section#about ul.skill-list li {
     margin-bottom: 10px;
     padding-left: 20px;
 }
+
 section#about ul.skill-list li::before {
     content: "▹";
     position: absolute;
@@ -98,7 +104,7 @@ section#about ul.skill-list li::before {
 }
 
 section#about div.resume,
-section#about div.resume a{
+section#about div.resume a {
     color: var(--secondary-color);
     transition: 0.3s;
 }
@@ -108,9 +114,28 @@ section#about div.resume a:hover {
 }
 
 /* Projects */
+section#projects {
+    background-color: #A6ABBD;
+}
+
+section#projects h1,
+section#projects hr {
+    color: var(--main-color);
+}
+
+section#projects .card {
+    background-color: var(--main-color);
+    color: var(--main-color-alt);
+    /* color: var(--main-color); */
+}
+
 section#projects .card-footer {
     background-color: unset;
     border-top: none;
+}
+section#projects .card-footer small {
+    color: var(--secondary-color) !important;
+    opacity: 0.85;
 }
 
 section#projects h2 {
@@ -127,6 +152,15 @@ footer a {
     color: var(--main-color-alt) !important;
     transition: 0.3s;
 }
+
 footer a:hover {
     color: var(--secondary-color) !important;
+}
+
+footer .my-link {
+    color: var(--secondary-color) !important;;
+}
+
+footer .my-link:hover {
+    color: var(--main-color-alt) !important;;
 }
