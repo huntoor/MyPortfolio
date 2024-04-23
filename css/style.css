@@ -15,7 +15,6 @@
 
 body {
     background-color: var(--main-color) !important;
-    overflow-x: hidden
 }
 
 .head-text h1 {
@@ -35,7 +34,7 @@ span {
 }
 
 .col {
-    overflow-y: hidden;
+    overflow: hidden !important;
 }
 
 /* Preloader */
@@ -149,7 +148,7 @@ section#projects .card-footer {
 }
 section#projects .card-footer small {
     color: var(--secondary-color) !important;
-    opacity: 0.85;
+    /* opacity: 0.90; */
 }
 
 section#projects h2 {
